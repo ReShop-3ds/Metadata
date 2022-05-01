@@ -1,0 +1,2 @@
+<?php
+echo '{"text":{"type":"html","body":"ReShop TERMS & CONDITIONS\n--------------------------------------\n\nPS: ReShop WONT offer free games. We are against piracy & support Nintendo with their anti-piracy actions.\n\nWell, we do not have many rules, just do not hack the server, do not do anything illegal, and your ReShop account will be fine.\n\nIf you wanna know you eShop language: '.$_GET['lang'].'\n\n\nHave fun!!!!\n\n-Rixy"}}';
