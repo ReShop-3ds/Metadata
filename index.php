@@ -8,6 +8,7 @@ $router->map('GET|POST', '/samurai/ws/[*:st]/directories', 'pages/directories.ph
 $router->map('GET|POST', '/samurai/ws/[*:st]/languages', 'pages/lang.php');
 $router->map('GET|POST', '/samurai/ws/[*:st]/news', 'pages/news.php');
 $router->map('GET|POST', '/samurai/ws/[*:st]/eshop_message/about', 'pages/about.php');
+$router->map('GET|POST', '/samurai/ws/[*:st]/directory/[i:id]', 'pages/category.php');
 $match = $router->match(urldecode($_SERVER['REQUEST_URI']));
 if ($match) {
     foreach ($match['params'] as &$param) {
